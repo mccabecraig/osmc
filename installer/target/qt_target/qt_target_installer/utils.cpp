@@ -185,5 +185,5 @@ int Utils::v4k_setflash()
 
 bool Utils::v4k_checkflash()
 {
-    return ((system("/usr/sbin/fw_printenv v4kflash") == 0) ? true : false);
+    return ((system("/usr/sbin/fw_printenv v4kflash") == 0) ? true : true);
 }
